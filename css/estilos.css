@@ -228,3 +228,42 @@ body {
   background: #00ffe0;
   margin: 15px auto 0;
 }
+
+/* TERCERA VERSIÓN*/
+.footer {
+  width: 100%;
+  border-top: 1px solid #111;
+  margin-top: 80px;
+  padding: 20px 40px;
+  background: black;
+}
+
+.footer-contenido {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-izq {
+  font-size: 1.5rem;
+  letter-spacing: 5px;
+  color: #ccc;
+}
+
+.footer-izq span {
+  color: #00ffe0;
+}
+
+.footer-der {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.footer-extra {
+  position: fixed;
+  bottom: 10px;
+  left: 20px;
+  font-size: 0.85rem;
+  color: #aaa;
+  opacity: 0.7;
+}

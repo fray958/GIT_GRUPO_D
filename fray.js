@@ -1,3 +1,5 @@
+// SEGUNDA VERSIÓN
+
 // Función para girar la tarjeta al hacer clic
 function girar(tarjeta) {
   const inner = tarjeta.querySelector('.tarjeta-inner');
